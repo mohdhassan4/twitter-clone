@@ -1,9 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Feed.css';
 import Post from './Post';
 import TweetBox from './TweetBox';
 
 function Feed() {
+    const [posts, setPosts] = useState([]);
+
     return (
         <div className="feed">
             {/* header */}
@@ -61,6 +63,30 @@ function Feed() {
              text = "Yenni janmalu unaa na mitra vindaaa nveeeee"
              avatar="https://i.pinimg.com/236x/06/1f/a3/061fa3b354fe50e4af2fa2f8abab6442.jpg"
              image = "https://i.pinimg.com/236x/d2/e7/91/d2e791b8a351ebf1c4e162d59378534e.jpg"
+             />
+             <Post 
+             displayName ="Kriti Sharma"
+             username="Kritu_khana"
+             verified={true}
+             text = "Yenni janmalu unaa na mitra vindaaa nveeeee"
+             avatar="https://i.pinimg.com/236x/06/1f/a3/061fa3b354fe50e4af2fa2f8abab6442.jpg"
+             image = "https://i.pinimg.com/236x/26/23/05/26230539987096c3644686546153fc27.jpg"
+             />
+             <Post 
+             displayName ="Kriti Sharma"
+             username="Kritu_khana"
+             verified={true}
+             text = "Yenni janmalu unaa na mitra vindaaa nveeeee"
+             avatar="https://i.pinimg.com/236x/06/1f/a3/061fa3b354fe50e4af2fa2f8abab6442.jpg"
+             image = "https://pbs.twimg.com/media/ErJoGEpVEAAwUqV?format=jpg&name=900x900"
+             />
+             <Post 
+             displayName ="Kriti Sharma"
+             username="Kritu_khana"
+             verified={true}
+             text = "Yenni janmalu unaa na mitra vindaaa nveeeee"
+             avatar="https://i.pinimg.com/236x/06/1f/a3/061fa3b354fe50e4af2fa2f8abab6442.jpg"
+             image = "https://i.pinimg.com/564x/e5/0c/14/e50c1488b16a8025835f340bf88d7d0f.jpg"
              />
             {/* post */}
             {/* post */}

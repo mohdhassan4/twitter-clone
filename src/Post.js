@@ -30,7 +30,7 @@ text, image, avatar}) {
                     </div>
                 </div>
                 <div className="post__imgbody">
-                <img src={image} alt=""></img>
+                    <img src={image} alt=""></img>
                 </div>
                 <div class="post__footer">
                     <ChatBubbleOutlineIcon fontSize="small" />
